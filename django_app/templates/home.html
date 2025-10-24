@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Django DevOps App{% endblock %}
+
+{% block content %}
+<div class="welcome-box">
+    <h1>Hello! <span class="username">{{ user.username }}</span></h1>
+    <p>How are you?</p>
+    <p style="font-size: 14px; color: #888; margin-top: 30px;">
+        Welcome to the Django DevOps Application<br>
+        Deployed using Docker Swarm on AWS
+    </p>
+    <form method="post" action="{% url 'logout' %}" class="logout-btn">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+</div>
+{% endblock %}

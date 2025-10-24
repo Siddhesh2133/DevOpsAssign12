@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Register - Django DevOps App{% endblock %}
+
+{% block content %}
+<h2>Register</h2>
+<form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="username">Username (Roll No):</label>
+        <input type="text" id="username" name="username" placeholder="e.g., ITA764" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password (Admission No):</label>
+        <input type="password" id="password" name="password" placeholder="e.g., 2022PE0000" required>
+    </div>
+    <div class="form-group">
+        <label for="password2">Confirm Password:</label>
+        <input type="password" id="password2" name="password2" placeholder="Confirm your password" required>
+    </div>
+    <button type="submit">Register</button>
+</form>
+<div class="links">
+    <p>Already have an account? <a href="{% url 'login' %}">Login here</a></p>
+</div>
+{% endblock %}
