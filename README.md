@@ -1,4 +1,4 @@
-# DevOps Assignment 12 - ITA764
+# DevOps Assignment 1/2 - ITA764
 
 
 ## Application Screenshots
