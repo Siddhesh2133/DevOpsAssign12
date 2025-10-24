@@ -1,8 +1,5 @@
 # DevOps Assignment 12 - ITA764
 
-**Student**: Siddhesh (Roll No: 2023PE0747)  
-**Course**: DevOps (ITA764)
-
 
 ## Application Screenshots
 
