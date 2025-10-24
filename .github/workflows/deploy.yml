@@ -1,10 +1,14 @@
 name: CI/CD Pipeline - DevOps Assignment
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:  # Allow manual trigger
+# Workflow disabled - Infrastructure has been destroyed to avoid AWS charges
+# This workflow was successfully tested and demonstrated during the assignment
+# To re-enable: uncomment the 'on:' section below
+
+# on:
+#   push:
+#     branches:
+#       - main
+#   workflow_dispatch:  # Allow manual trigger
 
 env:
   DOCKER_IMAGE_REPO: ${{ secrets.DOCKERHUB_USERNAME }}/django-devops-app
