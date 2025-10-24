@@ -3,13 +3,6 @@
 **Student**: Siddhesh (Roll No: 2023PE0747)  
 **Course**: DevOps (ITA764)
 
----
-
-## Deployment Output
-
-![Deployment Output](img/output.png)
-
----
 
 ## Application Screenshots
 
@@ -18,5 +11,9 @@
 
 ### Registration Page
 ![Registration Page](img/register_page.jpg)
+
+## Deployment Output
+
+![Deployment Output](img/output.png)
 
 ---
